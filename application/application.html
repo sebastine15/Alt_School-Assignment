@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body style="background-color: bisque">
+    <main >
+      <p id="scho">Already an altschooler?<a href="../index.html">HOME PAGE</a>
+        <a href="../Assignment 2/table/second_index.html">Table</a>
+      </p>
+      <h1>Sign up</h1>
+      <p>Take the next step tp apply for altschoolafrica</p>
+      <form class="form" action="email" method="post">
+        <table cellspacing="20" cellpadding="10">
+          <tbody>
+            <tr>
+              <td>
+                <label for=""><strong>First name</strong></label
+                ><br />
+                <input
+                  type="text"
+                  id="first name"
+                  placeholder="first name"
+                  required
+                /><br />
+              </td>
+              <td>
+                <label for=""><strong>Last name</strong></label
+                ><br /><input
+                  type="text"
+                  id="last name"
+                  placeholder="last name"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for=""><strong>Gender</strong></label
+                ><br />
+                <select name="gender" id="gender">
+                  <option value="select gender" disabled selected>
+                    select gender
+                  </option>
+                  <option value="male">male</option>
+                  <option value="female">female</option>
+                </select>
+              </td>
+              <td>
+                <label for=""><strong>Date of Birth</strong></label
+                ><br /><input
+                  type="date"
+                  id="Date of Birth"
+                  placeholder="Date of Birth"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for=""><strong>Email</strong></label
+                ><br /><input
+                  type="email"
+                  id="email"
+                  placeholder="email"
+                  required
+                />
+              </td>
+              <td>
+                <label for=""><strong>Phone number</strong></label
+                ><br /><input
+                  type="tel"
+                  id="phone number"
+                  placeholder="phone number"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for=""><strong>Country</strong></label
+                ><br /><input
+                  type="text"
+                  id="country"
+                  placeholder="country"
+                  required
+                />
+              </td>
+              <td>
+                <label for=""><strong>State/City of Residence</strong></label
+                ><br /><input
+                  type="text"
+                  id="State/City of Residence"
+                  placeholder="State/City of Residence"
+                  required
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tr>
+            <td>
+              <input type="submit" value="Submit" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </main>
+  </body>
+  <footer><a href="#">Scroll to Top</a></footer>
+</html>

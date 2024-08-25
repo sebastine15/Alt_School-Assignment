@@ -1,0 +1,13 @@
+#scho{
+    display: flex;
+    background-color:black;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#scho a{
+    color: white;
+    text-decoration: none;
+}

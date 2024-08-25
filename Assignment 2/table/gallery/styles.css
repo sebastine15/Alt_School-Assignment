@@ -1,0 +1,13 @@
+#alt{
+    display: flex;
+    background-color:black;
+    justify-content: space-around;
+    width:;
+    margin-top:;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#alt a{
+    color: white;
+    text-decoration: none;
+}
